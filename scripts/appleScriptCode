@@ -1,0 +1,10 @@
+tell application "Terminal"
+	set T to do script "bash /usr/local/bin/openSF.sh"
+	activate
+	set w to the id of window 1 where its tab 1 = T
+	repeat
+		delay 0.5
+		if not busy of T then exit repeat
+	end repeat
+	close window id w
+end tell
