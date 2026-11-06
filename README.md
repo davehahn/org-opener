@@ -15,7 +15,7 @@ A macOS utility that simplifies opening Salesforce organizations in your browser
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/org-opener.git
+git clone https://github.com/davehahn/org-opener.git
 cd org-opener
 
 # Run the installer
